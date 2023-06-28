@@ -57,6 +57,7 @@
             this.BtnCalistir.TabIndex = 1;
             this.BtnCalistir.Text = "Çalıştır";
             this.BtnCalistir.UseVisualStyleBackColor = false;
+            this.BtnCalistir.Click += new System.EventHandler(this.BtnCalistir_Click);
             // 
             // RTxtSorgu
             // 
@@ -92,7 +93,7 @@
             this.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SQL Derleyici";
             ((System.ComponentModel.ISupportInitialize)(this.DgvCikti)).EndInit();
             this.ResumeLayout(false);
 
